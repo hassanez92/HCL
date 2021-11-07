@@ -1,3 +1,5 @@
+package assignments;
+
 public class UserMainCode
 {
 	public static int sumOfSquaresOfEvenDigits(int n)
