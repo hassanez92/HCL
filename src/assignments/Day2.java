@@ -20,11 +20,7 @@ public class Day2 {
 
     System.out.print("Number of  Vowels in the string: " + prob3(str1)+"\n");
     
-    
-	prob5();
-	prob6();
-	prob7();
-	prob8();
+    prob5();
 	prob9();
 	prob10();
 
@@ -93,25 +89,39 @@ public class Day2 {
 		//Check Room class
 	}
 		
-
-		
-	
 	private static void prob5() {
 		// TODO Auto-generated method stub
+		class A {
+			int a = 100;
+
+			public void display() {
+				System.out.printf("a in A = %d\n", a);
+			}
+
+		}
+
+		class B extends A {
+			private int a = 123;
+
+			public void display() {
+				System.out.printf("a in B = %d\n", a);
+			}
+
+		}
+
+		class C extends B {
+			private int a = 543;
+
+			public void display() {
+				System.out.printf("a in C = %d\n", a);
+			}
+
+		}
 		
 	}
-	private static void prob6() {
-		// TODO Auto-generated method stub
-		
-	}
-	private static void prob7() {
-		// TODO Auto-generated method stub
-		
-	}
-	private static void prob8() {
-		// TODO Auto-generated method stub
-		
-	}
+	
+	
+	
 	private static void prob9() {
 		// TODO Auto-generated method stub
 		
