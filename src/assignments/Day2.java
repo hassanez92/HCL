@@ -22,9 +22,6 @@ public class Day2 {
     
     prob5();
 	prob9();
-	prob10();
-
-	
 
 	}
 
@@ -63,10 +60,6 @@ public class Day2 {
             length = 1;
         }
 		return str;
-
-
-
-		
 	}
 	private static int prob3(String str1) {
 		// TODO Auto-generated method stub
@@ -120,16 +113,9 @@ public class Day2 {
 		
 	}
 	
-	
-	
 	private static void prob9() {
 		// TODO Auto-generated method stub
 		
 	}
-	private static void prob10() {
-		// TODO Auto-generated method stub
-		
-	}
 	
-
 }
